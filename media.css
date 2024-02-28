@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@media (max-width:810px)
+{
+    *{
+        font-family: "Roboto", sans-serif;
+    }
+    .main-content
+    {
+      margin-top: 10%;
+    }
+    .main-content>img{
+        margin-bottom: 15px;
+    }
+    .main-content>h1{
+        font-size: 30px;
+    }
+    .name{
+        left: 59%;
+    }
+    .nav-left{
+        display: none;
+    }
+    .nav-right{
+        display: none;
+    }
+    .header{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #Email{
+       display: flex;
+       gap: 5px;
+
+    }
+    #nav{
+        display: flex;
+        gap: 5px;
+    }
+    #page3>h1
+    {
+        font-size: 30px;
+        padding-bottom: 80px;
+    }
+    .wbox1{
+        padding-top: 50px;
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .box1>h4{
+        font-size: 15px;
+    }
+    .services{
+        padding-bottom: 70px;
+    }
+    .box{
+        top: 32%;
+    }
+    footer{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 5vh;
+        align-items: center;
+    }
+    .line>h1{
+        font-size: 35px;
+        white-space: nowrap;
+    }
+    .line1>h1{
+        font-size: 25px;
+    }
+    .line{
+        height:55px;
+    }
+    .whole{
+        flex-direction: column;
+    }
+    .part1{
+        width: 100%;
+       margin-top: 10vh;
+    }
+    .part2{
+        width: 100%;
+        flex-direction: row;
+        margin-top: 5vh;
+    }
+    .box-start{
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .box-end{
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .box>h4{
+        width: 50%;
+        font-size: 15px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .box>p{
+        font-size: 10px;
+        font-weight: 300;
+        text-align: center;
+        justify-content: center;
+    }
+    .services{
+        top: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+    .heading{
+        margin-top: 10vh;
+      }
+      .whole{
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+      }
+      .heading>h1{
+        font-size: 25px;
+      }
+}
